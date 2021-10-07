@@ -1,0 +1,40 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.container {
+    width: 55%;
+    margin: auto;
+
+    /* Test */
+    background-color: bisque;
+    height: 700px;
+}
+img {
+    width: 100%;
+}
+
+/* Products */
+.row {
+    text-align: center;
+    
+
+    /* Test */
+    background-color: blueviolet;
+    margin: 40px 0;
+}
+
+.product {
+    width: 32%;
+    display: inline-block;
+    position: relative;
+
+    /* Test */
+    height: 400px;
+    background-color: red;
+    border: 1px solid black;
+}
