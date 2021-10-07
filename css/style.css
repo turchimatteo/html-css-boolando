@@ -10,9 +10,6 @@
 .container {
     width: 55%;
     margin: auto;
-
-
-    
 }
 img {
     width: 100%;
@@ -32,6 +29,8 @@ img {
 
     
 }
+
+/* Banners */
 .favorites {
     color: black;
     position: absolute;
@@ -85,6 +84,8 @@ img {
     font-size: 8px;
     font-weight: bold;
 }
+
+/* Name and Price product */
 .description {
     font-size: 8px;
     text-align: left;
@@ -92,4 +93,18 @@ img {
 }
 .price {
     font-weight: bold;
+}
+
+/* Image switch */
+.second-image {
+    display: none;
+}
+.product:hover {
+    cursor: pointer
+}
+.product:hover .second-image {
+    display: inline-block   ;
+}
+.product:hover .first-image {
+    display: none;
 }
